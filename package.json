@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:ignore-edge": "NEXT_RUNTIME_IGNORE=/api/hello next build",
     "start": "next start",
     "lint": "next lint"
   },
